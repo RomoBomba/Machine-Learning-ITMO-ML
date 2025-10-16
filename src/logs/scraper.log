@@ -1,0 +1,12 @@
+2025-09-27 23:32:18,496 - __main__ - INFO - === Запуск парсера DNS ===
+2025-09-27 23:32:18,498 - __main__ - INFO - Этап 1: Сбор данных с каталога...
+2025-09-27 23:32:18,498 - src.crawler - INFO - Обработка страницы 1: https://www.dns-shop.ru/catalog/17a89aab16404e77/smartfony/
+2025-09-27 23:32:19,167 - src.crawler - WARNING - GET https://www.dns-shop.ru/catalog/17a89aab16404e77/smartfony/ -> status 401 (attempt 1/3)
+2025-09-27 23:32:20,693 - src.crawler - WARNING - GET https://www.dns-shop.ru/catalog/17a89aab16404e77/smartfony/ -> status 401 (attempt 2/3)
+2025-09-27 23:32:22,717 - src.crawler - WARNING - GET https://www.dns-shop.ru/catalog/17a89aab16404e77/smartfony/ -> status 401 (attempt 3/3)
+2025-09-27 23:32:25,227 - src.crawler - ERROR - Ошибка при обработке страницы 1: Failed to fetch https://www.dns-shop.ru/catalog/17a89aab16404e77/smartfony/ after 3 attempts
+2025-09-27 23:32:25,227 - src.crawler - INFO - Собрано 0 записей с каталога
+2025-09-27 23:32:25,230 - __main__ - INFO - Этап 2: Парсинг 0 товаров...
+2025-09-27 23:32:25,230 - __main__ - INFO - Этап 3: Сохранение 0 товаров...
+2025-09-27 23:32:25,231 - src.save - WARNING - Нет данных для сохранения
+2025-09-27 23:32:25,231 - __main__ - INFO - === Парсинг завершен успешно! ===

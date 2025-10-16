@@ -1,0 +1,41 @@
+BASE_URL: "https://www.dns-shop.ru"
+CATEGORY_URL: "https://www.dns-shop.ru/catalog/17a89aab16404e77/smartfony/"
+
+SELECTORS:
+  product_card: 'div[data-id="product"]' # карточка товара
+
+  product_guid_attr: 'data-product'   # GUID в атрибуте контейнера
+  product_code_attr: 'data-code'      # внутренний код
+
+  product_link_primary: 'a.catalog-product__name'          # ссылка + span с полным title
+  product_link_alt: 'a.catalog-product__image-link'        # альтернативная ссылка
+  product_title_span: 'a.catalog-product__name span'       # span внутри ссылки с полным title
+  product_title_alt: '.product-card-top__name'             # альтернативный селектор, который ты нашёл
+
+  product_image: '.catalog-product__image img'             # img тег
+
+  current_price: '.product-buy__price'                     # текущая цена
+  old_price: '.product-buy__prev'                          # зачёркнутая старая цена
+  installment_price: '.product-buy__sub'                   # рассрочка
+
+  rating_block: '.catalog-product__rating'                 # блок с рейтингом и отзывами
+  rating_value: '.catalog-product__rating b'               # жирный элемент с рейтингом
+  reviews_count: '.catalog-product__rating'                # цифры отзывов
+
+  availability: '.order-avail-wrap .available'             # в наличии
+  availability_container: '.catalog-product__avails'       # контейнер доступности
+
+  discount: '.catalog-product__discount-vobler'            # элемент с % скидкой
+  promo_vobler: '.catalog-product__voblers .vobler'        # остальные воблеры
+
+  pagination_container: '.pagination'                      # пагинация
+  pagination_pages: '.pagination__page'                    # ссылки на страницы
+  pagination_next: '.pagination__next'                     # кнопка "следующая страница"
+
+OUTPUT:
+  dataset_path: "dataset/dataset.csv"
+  sample_path: "dataset/sample.csv"
+
+LOGGING:
+  logfile: "logs/scraper.log"
+  level: "INFO"
