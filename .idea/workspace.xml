@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb18f1a9-d1cd-46f1-88f7-d2df0184294d" name="Changes" comment="add branch lab1" />
+    <list default="true" id="fb18f1a9-d1cd-46f1-88f7-d2df0184294d" name="Changes" comment="fix : README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,9 +18,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="34A7rX3mfUzjUyjKfgvNoZbk0ZM" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -32,6 +32,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/shero/PycharmProjects/Machine-Learning-ITMO-ML",
     "settings.editor.selected.configurable": "File.Encoding"
@@ -65,11 +66,20 @@
       <option name="project" value="LOCAL" />
       <updated>1760645311443</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix : README.md">
+      <option name="closed" value="true" />
+      <created>1760645919374</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1760645919374</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add branch lab1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add branch lab1" />
+    <MESSAGE value="fix : README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix : README.md" />
   </component>
 </project>
